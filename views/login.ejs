@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box slide-in">
+        <h2 class="fade-in">Login</h2>
+        <form action="/login" method="POST">
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              name="username"
+              required
+              placeholder="Username"
+              class="input-field"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              placeholder="Password"
+              class="input-field"
+            />
+          </div>
+          <button type="submit" class="submit-btn">Login</button>
+        </form>
+        <p class="fade-in">
+          Don't have an account? <a href="/signup">Signup</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

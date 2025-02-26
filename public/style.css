@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.login-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    animation: slide-in 1s ease-out;
+}
+.fade-in {
+    opacity: 0;
+    animation: fade-in 1s ease-in forwards;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+.input-field:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit-btn:hover {
+    background: #ddd;
+}
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slide-in {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+html {
+    font-size: 18px; /* Increase the base font size */
+}
+
+.login-box .submit-btn {
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.signup-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    animation: slide-in 1s ease-out;
+}
+.fade-in {
+    opacity: 0;
+    animation: fade-in 1s ease-in forwards;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+}
+.input-field:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit-btn:hover {
+    background: #ddd;
+}
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.signup-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 50px; /* Increased padding */
+    width: 400px; /* Increased width */
+    height: auto; /* Adjust height as needed */
+    margin-top: 20px; /* Add margin to create gap between signup button */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    animation: slide-in 1s ease-out;
+}
+@keyframes slide-in {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
